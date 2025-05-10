@@ -1,15 +1,221 @@
 @import "tailwindcss";
 
 @theme {
+  /* Fontes */
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Cores principais - tons de roxo escuro */
+  --color-purple-50: #f5f3ff;
+  --color-purple-100: #ede9fe;
+  --color-purple-200: #ddd6fe;
+  --color-purple-300: #c4b5fd;
+  --color-purple-400: #a78bfa;
+  --color-purple-500: #8b5cf6;
+  --color-purple-600: #7c3aed;
+  --color-purple-700: #6d28d9;
+  --color-purple-800: #5b21b6;
+  --color-purple-900: #3b0764;
+  --color-purple-950: #1e0636;
+  --color-purple-970: #170527;
+  --color-purple-990: #0e0318;
+
+  /* Azul apenas para detalhes */
+  --color-blue-400: #60a5fa;
+  --color-blue-700: #1d4ed8;
+  --color-blue-900: #0c1a3c;
+  --color-blue-950: #050d1e;
+
+  /* Cores de destaque */
+  --color-accent-light: #a78bfa;
+  --color-accent: #8b5cf6;
+  --color-accent-dark: #5b21b6;
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-gradient-to-b from-[color:var(--color-purple-990)] to-[color:var(--color-blue-950)] text-white min-h-screen;
+  font-family: var(--font-sans);
+  background-attachment: fixed;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+/* Padrão sutil para o fundo */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(124, 58, 237, 0.03) 1%, transparent 7%),
+    radial-gradient(circle at 75% 75%, rgba(96, 165, 250, 0.03) 1%, transparent 7%);
+  background-size: 80px 80px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+a {
+  color: var(--color-accent-light);
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--color-accent);
+}
+
+button, .btn, .Button {
+  background: linear-gradient(90deg, var(--color-purple-700), var(--color-purple-400));
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+button:hover, .btn:hover, .Button:hover {
+  background: linear-gradient(90deg, var(--color-purple-800), var(--color-purple-500));
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.3);
+}
+
+/* Animações personalizadas */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reverse-spin-slow {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+.animate-reverse-spin-slow {
+  animation: reverse-spin-slow 30s linear infinite;
+}
+
+/* Efeitos de glassmorphism */
+.glass-effect {
+  background: rgba(124, 58, 237, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Efeitos de hover aprimorados */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(124, 58, 237, 0.2);
+}
+
+/* Animação para o botão de voltar ao topo */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.back-to-top-button:hover .arrow-icon {
+  transform: translateY(-4px);
+  transition: transform 0.3s ease;
+}
+
+/* Animações para a seção Hero */
+@keyframes gradientText {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes fadeInStaggered {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-shadow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px 5px rgba(124, 58, 237, 0.3);
+  }
+}
+
+.animate-gradient-text {
+  background-size: 200% 200%;
+  animation: gradientText 6s ease infinite;
+}
+
+.animate-sparkle {
+  animation: sparkle 3s ease infinite;
+}
+
+.animate-staggered {
+  animation: fadeInStaggered 0.8s ease forwards;
+  opacity: 0;
+}
+
+.animate-pulse-shadow {
+  animation: pulse-shadow 3s infinite;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.6s;
+}
+
+.animate-delay-4 {
+  animation-delay: 0.8s;
 }

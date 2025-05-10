@@ -1,0 +1,237 @@
+{
+  "hero": {
+    "title": "Transforme seu Negócio com Marketing Digital Inteligente",
+    "subtitle": "Automatize processos, aumente vendas e impulsione seu crescimento com soluções personalizadas de marketing digital.",
+    "cta": "Comece Agora",
+    "secondaryCta": "Saiba Mais"
+  },
+  "about": {
+    "title": "Sobre a Alyvra",
+    "subtitle": "Somos uma agência de marketing digital focada em resultados, combinando tecnologia e criatividade para impulsionar seu negócio.",
+    "description": "Na Alyvra, acreditamos que o sucesso do seu negócio depende de uma estratégia de marketing digital bem planejada e executada. Nossa equipe de especialistas trabalha em conjunto para criar soluções personalizadas que atendam às suas necessidades específicas e alcancem seus objetivos de negócio.",
+    "mission": "Nossa missão é transformar negócios através de estratégias digitais inovadoras e resultados mensuráveis.",
+    "values": [
+      "Inovação Constante",
+      "Excelência em Execução",
+      "Foco em Resultados",
+      "Parceria de Longo Prazo"
+    ],
+    "stats": [
+      {
+        "value": "98%",
+        "label": "Satisfação",
+        "gradient": "purple"
+      },
+      {
+        "value": "50+",
+        "label": "Projetos",
+        "gradient": "blue"
+      },
+      {
+        "value": "5+",
+        "label": "Anos",
+        "gradient": "purple"
+      },
+      {
+        "value": "15+",
+        "label": "Especialistas",
+        "gradient": "blue"
+      }
+    ]
+  },
+  "services": {
+    "title": "Nossas Soluções",
+    "subtitle": "Oferecemos um conjunto completo de serviços de marketing digital para impulsionar seu negócio.",
+    "items": [
+      {
+        "title": "Marketing de Automação",
+        "description": "Automatize seus processos de marketing e vendas para aumentar a eficiência e escalar seu negócio.",
+        "benefits": [
+          "Redução de custos operacionais",
+          "Aumento de produtividade",
+          "Escalabilidade sem aumento de equipe"
+        ]
+      },
+      {
+        "title": "Marketing Digital",
+        "description": "Estratégias completas de marketing digital para aumentar sua presença online e gerar leads qualificados.",
+        "benefits": [
+          "Aumento de visibilidade online",
+          "Geração de leads qualificados",
+          "Maior ROI em campanhas"
+        ]
+      },
+      {
+        "title": "Design e Desenvolvimento",
+        "description": "Criação de websites e aplicações modernas que convertem visitantes em clientes.",
+        "benefits": [
+          "Experiência do usuário otimizada",
+          "Maior taxa de conversão",
+          "Design responsivo e moderno"
+        ]
+      },
+      {
+        "title": "Consultoria Estratégica",
+        "description": "Consultoria especializada para desenvolver e implementar estratégias de crescimento sustentável.",
+        "benefits": [
+          "Estratégia personalizada",
+          "Vantagem competitiva",
+          "Crescimento sustentável"
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "title": "Tecnologia de Ponta",
+        "description": "Utilizamos as mais avançadas tecnologias e metodologias para criar soluções que não apenas resolvem problemas atuais, mas também preparam seu negócio para o futuro.",
+        "gradientFrom": "purple",
+        "gradientTo": "purple",
+        "borderColor": "purple"
+      },
+      {
+        "title": "Equipe Especializada",
+        "description": "Nossa equipe multidisciplinar reúne especialistas em diversas áreas do marketing digital e automação, garantindo uma abordagem completa e integrada para seu negócio.",
+        "gradientFrom": "blue",
+        "gradientTo": "blue",
+        "borderColor": "blue"
+      },
+      {
+        "title": "Resultados Garantidos",
+        "description": "Trabalhamos com métricas claras e objetivos mensuráveis, garantindo que cada investimento em nossas soluções traga retorno real e tangível para o seu negócio.",
+        "gradientFrom": "purple",
+        "gradientTo": "purple",
+        "borderColor": "purple"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "O que nossos clientes dizem",
+    "subtitle": "Histórias de sucesso de empresas que transformaram seus negócios com nossas soluções.",
+    "items": [
+      {
+        "content": "A Alyvra revolucionou nossa presença digital. O ROI que obtivemos superou todas as expectativas.",
+        "author": "Maria Silva",
+        "role": "CEO, TechSolutions"
+      },
+      {
+        "content": "A automação implementada pela equipe da Alyvra nos permitiu escalar nossas operações de forma eficiente.",
+        "author": "João Santos",
+        "role": "Diretor de Marketing, InovaçãoTech"
+      },
+      {
+        "content": "Profissionalismo e resultados excepcionais. A parceria com a Alyvra tem sido fundamental para nosso crescimento.",
+        "author": "Ana Costa",
+        "role": "Fundadora, StartupBR"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "98%",
+        "label": "Satisfação",
+        "highlight": "purple"
+      },
+      {
+        "value": "50+",
+        "label": "Projetos",
+        "highlight": "blue"
+      },
+      {
+        "value": "40%",
+        "label": "ROI Médio",
+        "highlight": "purple"
+      },
+      {
+        "value": "5+",
+        "label": "Especialistas",
+        "highlight": "blue"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Transformar seu Negócio?",
+    "description": "Agende uma consulta gratuita e descubra como podemos ajudar seu negócio a alcançar resultados extraordinários.",
+    "buttonText": "Agendar Consulta",
+    "benefits": [
+      "Consulta estratégica gratuita",
+      "Análise personalizada do seu negócio",
+      "Plano de ação detalhado"
+    ],
+    "form": {
+      "title": "Agende sua Consulta",
+      "fields": [
+        {
+          "label": "Nome",
+          "type": "text",
+          "placeholder": "Seu nome completo"
+        },
+        {
+          "label": "Email",
+          "type": "email",
+          "placeholder": "seu@email.com"
+        },
+        {
+          "label": "Empresa",
+          "type": "text",
+          "placeholder": "Nome da sua empresa"
+        }
+      ],
+      "buttonText": "Agendar Agora",
+      "security": [
+        {
+          "icon": "lock",
+          "text": "Seguro"
+        },
+        {
+          "icon": "shield",
+          "text": "Confidencial"
+        }
+      ]
+    }
+  },
+  "images": {
+    "hero": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "about": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "services": [
+      "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ],
+    "testimonials": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "cta": "https://images.unsplash.com/photo-1581089778245-3ce67677f718?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  "icons": {
+    "services": [
+      {
+        "name": "automation",
+        "path": "M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"
+      },
+      {
+        "name": "marketing",
+        "path": "M12 20V10M18 20V4M6 20v-6"
+      },
+      {
+        "name": "design",
+        "path": "M2 3h20M2 3v14M2 17h20"
+      },
+      {
+        "name": "consulting",
+        "path": "M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+      }
+    ],
+    "differentials": [
+      {
+        "name": "technology",
+        "path": "M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"
+      },
+      {
+        "name": "team",
+        "path": "M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
+      },
+      {
+        "name": "results",
+        "path": "M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+      }
+    ]
+  }
+} 
