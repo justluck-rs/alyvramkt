@@ -16,8 +16,8 @@ export function About() {
       
       <Container className="relative z-10">
         <AboutHeader />
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <AboutImage />
+        <div className="grid grid-cols-1 items-center">
+          {/* <AboutImage /> */}
           <AboutContent />
         </div>
       </Container>

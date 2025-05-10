@@ -8,8 +8,8 @@ export function AboutContent() {
   return (
     <motion.div
       className="lg:col-span-7"
-      initial={{ opacity: 0, x: 50 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.7, ease: 'easeOut', delay: 0.2 }}
     >

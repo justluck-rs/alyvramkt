@@ -16,7 +16,7 @@ interface NavbarProps {
 export function Navbar({ 
   logo = 'Alyvra',
   navItems = [
-    { label: 'Início', href: '#' },
+    { label: 'Início', href: '/' },
     { label: 'Serviços', href: '#services' },
     { label: 'Sobre', href: '#about' },
     { label: 'Depoimentos', href: '#testimonials' },
@@ -138,7 +138,7 @@ export function Navbar({
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="#" className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text hover:from-purple-400 hover:to-blue-400 transition-all duration-300">
+            <a href="/" className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text hover:from-purple-400 hover:to-blue-400 transition-all duration-300">
               {logo}
             </a>
           </div>
